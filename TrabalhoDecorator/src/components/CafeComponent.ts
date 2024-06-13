@@ -1,6 +1,6 @@
 import IComponent from "./IComponent";
 
-//Componentes concretos fornecem implementações padrão das operações. podem haver diversas variações dessas classes.
+//Cafe component fornece implementação padrão da operation. Pode haver diversas variações dessa classe.
 export default class CafeComponent {
     public operation(): string {
       return 'Café simples';

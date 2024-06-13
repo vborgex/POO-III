@@ -1,7 +1,7 @@
 import Decorator from "./Decorator";
 
 /**
- * Os Decorators Concretos chamam o objeto wrapped e alteram seu resultado de alguma forma.
+ * Decorator para alterar o operation adicionando com leite
  */
 export default class LeiteDecorator extends Decorator {
     public operation(): string {

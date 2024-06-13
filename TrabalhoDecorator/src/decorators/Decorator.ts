@@ -1,5 +1,4 @@
-/**A classe base Decorator segue a mesma interface dos demais componentes.
- * O objetivo principal desta classe é definir a interface de empacotamento para todos
+/**O objetivo principal desta classe é definir a interface de empacotamento para todos
  * decoradores concretos. A implementação padrão do código de empacotamento pode
  * inclui um campo para armazenar um componente empacotado e os meios para inicializar
  * isto.

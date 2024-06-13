@@ -1,7 +1,7 @@
 import Decorator from "./Decorator";
 
 /**
- * Decorators podem executar seu comportamento antes ou depois da chamada de um objeto encapsulado.
+ * Decorator para alterar o operation adicionando com açucar
  */
 export default class AcucarDecorator extends Decorator {
     public operation(): string {
