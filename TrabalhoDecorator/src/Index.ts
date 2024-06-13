@@ -2,11 +2,7 @@ import IComponent from "./components/IComponent";
 import CafeComponent from "./components/CafeComponent";
 import AcucarDecorator from "./decorators/AcucarDecorator";
 import LeiteDecorator from "./decorators/LeiteDecorator";
-/**
- * The client code works with all objects using the Component interface. This
- * way it can stay independent of the concrete classes of components it works
- * with.
- */
+
 // Cliente
 function clienteCode(cafe: IComponent) {
     console.log(cafe.operation());
